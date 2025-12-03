@@ -19,7 +19,7 @@
 	width:90%;
 	text-align:center;
 	
-.moviepic {
+.moviePic {
       height: 320px;       /* required: height  */
       width: 220px;        /* required: width   */
       opacity: 0.95;       /* required: opacity */
@@ -41,7 +41,7 @@
       font-size: 0.95rem;
       margin-bottom: 20px;
 	}
-	.moviedetail{
+	.movieDetail{
 		position:relative;
 		top:0;
 	  width: 80%;              /* required */
