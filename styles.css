@@ -1,2 +1,63 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.page{
+	min-height:100vh;
+	display:flex;
+	flex-direction:colunm;
+	align-items:center;
+	justify-content:center;
+}
+.movie-card{
+	background:rgba(0, 0, 0, 0.65);
+	padding:30px 40px;
+	border-radius:16px;
+	box-shadow:0 15px 40px rgba(0, 0, 0, 0.7);
+	max-width:800px;
+	width:90%;
+	text-align:center;
+	
+.moviepic {
+      height: 320px;       /* required: height  */
+      width: 220px;        /* required: width   */
+      opacity: 0.95;       /* required: opacity */
+      border-radius: 12px;
+	object-fit:cover;
+	display:block;
+	margin:0 auto 20px auto;
+	box-shadow:0 10px 25px rgba(0,0,0,0.8)
+     
+    }
+	.movie-title{
+		 font-size: 2.2rem;
+      margin-bottom: 6px;
+      letter-spacing: 0.04em;
+	}
 
-/* Your CSS Code here. */
+	.meta{
+		  color: #f5c518;
+      font-size: 0.95rem;
+      margin-bottom: 20px;
+	}
+	.moviedetail{
+		position:relative;
+		top:0;
+	  width: 80%;              /* required */
+      text-align: center;      /* required */
+      font-size: 1.05rem;      /* required */
+      margin: 0 auto;
+      line-height: 1.6;
+      color: #e0e0e0;
+	}
+	.rating{
+		  margin-top: 22px;
+      font-size: 1rem;
+	}
+	  .rating span {
+      color: #f5c518;
+      font-weight: 600;
+    }
+
+
